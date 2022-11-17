@@ -11,7 +11,7 @@ int main(){
     }
     for(int i = 0 ; i < N ; i++){
         scanf("%d", &temp);
-        printf("%d", dp[temp]);
+        printf("%d\n", dp[temp]);
     }
     return 0;
 }
